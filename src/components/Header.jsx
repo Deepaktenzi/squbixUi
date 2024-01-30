@@ -2,7 +2,7 @@ import squbixLogo from "../assets/images/squbixLogo.svg";
 export const Header = () => {
   return (
     <>
-      <nav className="border-gray-200  p-2">
+      <nav className="border-gray-200 p-2 sticky top-0 z-50 bg-[linear-gradient(90deg,#0a0b13,#070920,#040828)]">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="#"
